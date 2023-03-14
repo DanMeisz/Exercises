@@ -2,8 +2,6 @@ import requests
 import base64
 import pandas as pd
 
-#a simple program that creates a CSV file with the name of repositories and their descriptions
-# belonging to an account with the help of the GitHUB API
 token=""
 username=""
 
