@@ -71,7 +71,7 @@ def chk_log_age():
         if log_age >=15:
             info(f"{log} is older than 15 days.")
             try:
-                remove(f"{path}/{log}")
+                remove(log_dir)
                 info(f"{log} removed.")
             except:
                 exception(Exception)
